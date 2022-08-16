@@ -1,0 +1,609 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.d-f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    font-family: Raleway;
+    background: rgba(255, 255, 255, 1);
+
+}
+header {
+    padding-top: 38px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 38px;
+    
+    
+}
+
+
+
+a {
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 324.23px;
+    margin-left: 73px;
+    
+    
+}
+.logo img {
+    max-width: 129px;
+    max-height: 64.5px;
+    margin-right: -25px;
+    
+}
+.logo span {
+ font-family: Raleway;
+font-size: 35px;
+font-weight: 900;
+line-height: 41px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+
+}
+nav li {
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 1.274999976158142px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    
+    
+}
+
+
+.feauture::after {
+    content: '';
+    border-bottom: 5px solid  rgba(75, 168, 125, 1);
+    width: 100px;
+    display: block;
+    padding-top: 6px;
+    transition: all 3s;
+    
+
+}
+.feauture:hover::after {
+    transform: translate(100%,0);
+    
+}
+
+
+.sign {
+border: 3px solid #4ba87d;
+background-color: rgba(255, 255, 255, 1);
+color:  rgba(75, 168, 125, 1);
+font-family: Raleway;
+font-size: 21px;
+font-weight: 900;
+line-height: 25px;
+letter-spacing: 2.0999999046325684px;
+text-align: center;
+padding: 10px 20px 11px;
+margin-right: 100px;
+text-transform: uppercase;
+
+
+}
+.sign:hover {
+    background: rgba(75, 168, 125, 1);
+    color: rgba(255, 255, 255, 1);
+    
+
+}
+.section-one .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one {
+    margin-bottom: 168.36px;
+ 
+}
+.content {
+    position: relative;
+    z-index: 1;
+    margin-right: -121px;
+}
+
+h1 {
+font-family: Playfair Display;
+font-size: 59px;
+font-weight: 900;
+line-height: 71px;
+max-width: 489px;
+text-align: left;
+margin-top: 63px;
+
+
+}
+.section-one p {
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 446px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 23px;
+    
+}
+.try-now {
+   background: rgba(75, 168, 125, 1);
+   font-family: Raleway;
+   font-size: 21px;
+   font-weight: 900;
+   line-height: 25px;
+   letter-spacing: 1.0499999523162842px;
+   text-align: center;
+   color:  rgba(255, 255, 255, 1);
+   padding: 19px 47px 21px 48px;
+   text-transform: uppercase;
+   margin-right: 45px;
+   margin-top: 50px;
+   
+
+
+}
+.get-demo {
+ border: 3px solid #4ba87d;
+background-color: rgba(255, 255, 255, 1);
+color:  rgba(75, 168, 125, 1);
+font-family: Raleway;
+font-size: 21px;
+font-weight: 900;
+line-height: 25px;
+letter-spacing: 2.0999999046325684px;
+text-align: center;
+padding: 19px 27px 21px 29px;
+text-transform: uppercase;
+margin-top: 50px;
+
+}
+.my-img {
+    margin-top: 110.91px;
+}
+.section-two {
+    background: rgba(247, 247, 247, 1);
+    padding: 100px 0;
+    transform: skew(0deg, -130) translateY(-200px);
+    mix-blend-mode: normal;
+    opacity: 81.04px;
+    margin-top: 168.36px;
+    
+    
+
+}
+.section-two h2 {
+font-family: Playfair Display;
+font-size: 60px;
+font-weight: 900;
+line-height: 80px;
+color:  rgba(255, 255, 255, 1);
+text-align: center;
+text-transform: capitalize;
+margin-top: 200px;
+
+}
+.learn-how {
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 1.0499999523162842px;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(75, 168, 125, 1);
+    text-transform: uppercase;
+    padding: 19px 32px 21px;
+    margin-top: 61px;
+    border: none;
+    margin-left: 372px;
+    
+
+    
+
+    
+}
+.section-two .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/slash_white\ \(image\)\ \(3\).png);
+    
+}
+.h2 .learn-how {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+}
+
+.my-content {
+    background-image: url(./images/video.png);
+    width: 944px;
+    height: 628.08px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.section-three .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.section-three {
+    background: rgba(202, 234, 199, 1);
+    background-image: url(./images/slash_white\ \(image\)\ \(3\).png);
+    height: 1059.87px;
+    padding-top: 200px;
+    margin-top: -300px;
+    clip-path: polygon(0 17%, 100% 0, 100% 75%, 0% 100%);
+    position: relative;
+    z-index: 1;
+    
+
+
+    
+    
+    
+
+
+
+
+
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start; 
+    margin: auto;
+    gap: 47px;
+}
+.blog-one {
+    margin-top:  px;
+}
+.blog-two {
+    margin-top: 131.05px;
+}
+
+.blog-content {
+    background: rgba(255, 255, 255, 1);
+    
+    padding: 24px 39px 40px 30px;
+    margin-top: -15px;
+    
+
+}
+.blog p {
+    font-family: Raleway;
+font-size: 16px;
+font-weight: bold;
+line-height: 26px;
+max-width: 251px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+.blog h3 {
+    font-family: Raleway;
+font-size: 16px;
+font-weight: 900;
+line-height: 19px;
+color: rgba(75, 168, 125, 1);
+text-align: left;
+margin-top: 10px;
+
+}
+.head-p {
+    margin-right: 145px;
+    
+}
+.head-p h2 {
+    font-family: Playfair Display;
+    margin-bottom: 24px;
+    margin-top: 187.46px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 48px;
+    max-width: 365px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+
+    
+}
+.head-p p {
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 322px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+
+.cases {
+    display: grid;
+    grid-template-columns: repeat(3,342px);
+    gap: 32px;
+    margin-left: 174px;
+    margin-bottom: 40px;
+    margin-top: -90px;
+    height: 239px;
+    width: 342px;
+
+
+}
+.customers {
+    background-repeat: no-repeat;
+    padding: 153px 95px 41px 27px;
+}
+.case-one {
+    background-image: url(./images/Frankie_photo.png);
+    position: relative;
+    z-index: 2;
+    
+    
+    
+    
+}
+.case-two {
+    background-image: url(./images/Camile_photo.png);
+
+    
+    
+}
+.case-three {
+    background-image: url(./images/Elayne_photo.png);
+    
+}
+
+
+.cases h2 {
+    font-family: Raleway;
+font-size: 34px;
+font-weight: 900;
+line-height: 40px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+
+}
+.cases h3 {
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    
+}
+
+
+.section-content .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-content h2 {
+    font-family: Playfair Display;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 48px;
+    color:  rgba(0, 0, 0, 1);
+    width: 1160px;
+    text-align: center;
+    margin: 40px 268px 15px;
+    
+}
+.my-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 27px;
+}
+.email {
+    color:  rgba(0, 0, 0, 1);
+    font-family: Raleway;
+font-size: 21px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 1.0499999523162842px;
+text-align: left;
+padding: 19px 219px 21px 25px;
+border: 1px solid rgba(159, 159, 159, 1);
+border-radius: 5px;
+background-color: #ffffff;
+margin-top: ;
+margin-bottom: 20px;
+}
+.join {
+    background: rgba(75, 168, 125, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 19px 29px 21px 30px;
+    text-transform: uppercase;
+    font-family: Raleway;
+font-size: 21px;
+font-weight: 900;
+line-height: 25px;
+letter-spacing: 1.0499999523162842px;
+text-align: center;
+margin-bottom: 120px;
+margin-top: 93px;
+
+
+}
+.section-content h3 {
+    color: rgba(75, 168, 125, 1);
+    font-family: Raleway;
+font-size: 21px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 1.0499999523162842px;
+text-align: left;
+margin: -80px 775px 75px 411px ;
+
+
+}
+.section-five .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-head {
+    color: rgba(0, 0, 0, 1);
+    max-width: 580px;
+    font-family: Playfair Display;
+font-size: 44px;
+font-weight: 900;
+line-height: 48px;
+text-align: center;
+margin-top: 75px;
+margin-bottom: 39px;
+
+
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+    margin-top: 39px;
+    margin-bottom: 146px;
+}
+.section-six {
+    background: rgba(75, 168, 125, 1);
+    
+
+}
+.section-six h2 {
+font-family: Playfair Display;
+font-size: 60px;
+font-weight: 900;
+line-height: 80px;
+text-align: center;
+padding-top: 82px;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.pick {
+font-family: Raleway;
+font-size: 21px;
+font-weight: 900;
+line-height: 25px;
+letter-spacing: 1.0499999523162842px;
+text-align: center;
+color: rgba(75, 168, 125, 1);
+padding: 19px 30px 21px 33px;
+border: none;
+margin: 40px 620px 95px;
+
+}
+
+
+
+
+.footer-nav  {
+    display: flex;
+    gap: 65px;
+    margin-top: 79px;
+    margin-bottom: 74px;
+    margin-right: 256px;
+    
+    
+    
+
+    
+}
+.footer-nav ul li a {
+    color: rgba(0, 0, 0, 1);
+
+}
+
+footer ul  li  {
+    list-style: none;
+    font-family: Raleway;
+font-size: 19px;
+font-weight: 800;
+line-height: 22px;
+text-align: left;
+margin-bottom: 10px;
+
+
+
+
+
+    
+}
+footer .logo {
+    
+    margin-top: 77.79px;
+    margin-bottom: 226.21px;
+    margin-right: 194.61px;
+    margin-left: 228px;
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 900;
+line-height: 31px;
+text-align: left;
+
+    
+    
+    
+    
+}
+footer img {
+    margin-right: -25px;
+    
+}
+
+hr {
+    margin: 74px 176px 39px;
+    max-width: 1088px;
+    background: rgba(219, 219, 219, 1);
+
+
+}
+.links  {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 39px 257px 48px;
+    font-family: Raleway;
+font-size: 15px;
+font-weight: 800;
+line-height: 18px;
+text-align: left;
+
+
+
+}
+.footer-link a {
+    color: rgba(0, 0, 0, 1);
+
+}
