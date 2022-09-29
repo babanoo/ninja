@@ -11,9 +11,11 @@
 
 .d-f {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+
 }
+
 
 body {
     font-family: Playfair Display;
@@ -23,7 +25,7 @@ body {
 }
 
 header {
-    padding-top: 38px;
+    padding-top: 18px;
 }
 
 nav ul {
@@ -31,8 +33,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 38px;
-    margin-left: 316.23px;
-    margin-right: 21px;
+
 
 
 
@@ -50,7 +51,7 @@ header .logo {
     font-family: Raleway;
     display: flex;
     align-items: center;
-    margin-left: -73px;
+
 
 
 
@@ -81,18 +82,16 @@ nav li {
     font-weight: 800;
     line-height: 20px;
     letter-spacing: 1.274999976158142px;
-    text-align: left;
+
     color: rgba(0, 0, 0, 1);
 
 
 
 }
 
-nav ul {
-    margin-left: 250px;
-}
 
-nav li:hover {
+
+.hover:hover {
     border-bottom: 5px solid rgba(75, 168, 125, 1);
 }
 
@@ -111,24 +110,36 @@ nav li:hover {
 
 
 
+
+
 .sign {
     border: 3px solid #4ba87d;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(75, 168, 125, 1);
     font-family: Raleway;
-    font-size: 21px;
-    font-weight: 900;
+    font-size: 17px;
+    font-weight: 800;
     line-height: 25px;
     letter-spacing: 2.0999999046325684px;
     text-align: center;
-    padding: 10px 20px 11px 20px;
+    padding: 5px 10px;
     text-transform: uppercase;
-    margin-right: -100px;
 
 
 
 
 
+
+
+
+
+}
+
+.nav-link {
+    display: flex;
+
+    align-items: center;
+    gap: 30px;
 
 }
 
@@ -139,28 +150,23 @@ nav li:hover {
 
 }
 
-.stunning-email .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-    
-}
 
-.stunning-email {
+
+
+.stunning-email .container {
     background-image: url(./images/computer.png);
     background-repeat: no-repeat;
-    background-position: right center;
-    margin-right: 200px;
-    margin-top: 66.91px;
-    margin-bottom: 168.36px;
+    background-position: right top;
+    height: 481.19px;
+
+
+
+
+
+
 }
 
-.content {
-    padding-right: 340px;
-    margin-bottom: 100px;
-}
+
 
 h1 {
     font-family: Playfair Display;
@@ -169,7 +175,11 @@ h1 {
     line-height: 71px;
     max-width: 489px;
     text-align: left;
-    margin-top: 63px;
+    margin-bottom: 23px;
+    margin-top: 58.09px;
+
+
+
 
 
 }
@@ -181,8 +191,8 @@ h1 {
     line-height: 26px;
     max-width: 459px;
     text-align: left;
-    margin-bottom: 50px;
-    margin-top: 23px;
+    margin-bottom: 35px;
+
 
 }
 
@@ -200,7 +210,9 @@ h1 {
     padding: 19px 47px 21px 48px;
     text-transform: uppercase;
     margin-right: 45px;
-    margin-top: 50px;
+    margin-top: 35px;
+
+
 
 
 
@@ -218,28 +230,47 @@ h1 {
     text-align: center;
     padding: 19px 27px 21px 29px;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 35px;
+
 
 }
 
-.computer {
-    margin-top: 110.91px;
+
+.background {
+
+
+
+
+
+
+
+    background: rgba(247, 247, 247, 1);
+
+
     position: relative;
-    z-index: 2;
+    z-index: 1;
+    height: 690px;
+    margin-bottom: -600px;
 }
 
-.customers .container {
+.background img {
+
+    max-width: 1100px;
+    height: 800px;
+    transform: translate(-50px, -140px);
+}
+
+.customers .container .main-top {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 61px;
     flex-direction: column;
-    margin-top: 300px;
-
-
-
-
-
+    margin-top: -300px;
 
 }
+
+
 
 .customers h2 {
     font-size: 60px;
@@ -248,7 +279,8 @@ h1 {
     color: rgba(255, 255, 255, 1);
     text-align: center;
     text-transform: capitalize;
-    margin-top: 150px;
+    margin-top: -60px;
+
 
 
 
@@ -267,7 +299,7 @@ h1 {
     text-transform: uppercase;
     padding: 19px 32px 21px;
     border: none;
-    margin-top: 61px;
+
 
 
 
@@ -278,31 +310,49 @@ h1 {
 
 
 
+.main-top {
 
-.customers {
+
+
+
+
+
+
+
     background-image: url(./images/video.png);
-    width: 944px;
-    height: 628.08px;
-    background-repeat: no-repeat;
     margin: 0 auto;
+    max-width: 820px;
+    height: 600px;
+    background-repeat: no-repeat;
+
     position: relative;
     z-index: 2;
 
 
 }
 
+
+.mobil-cards {
+    visibility: hidden;
+    margin-top: -737px;
+}
+
 .Services .container {
     display: flex;
     align-items: center;
-    margin-top: -220px;
+    margin-top: -185px;
     background-image: url(./images/slash_white\ \(image\)\ \(3\).png);
     background-repeat: repeat;
+    gap: 47px;
 
 
 }
 
 .cards {
+
     display: flex;
+    gap: 47px;
+
 
 
 }
@@ -320,7 +370,7 @@ h1 {
 }
 
 .card-img {
-    width: 424.34px;
+
     position: relative;
     z-index: 1;
 }
@@ -379,7 +429,7 @@ h1 {
 
 .card-two {
     margin-top: 300px;
-    margin-left: -50px;
+
 }
 
 .card-one .card-content {
@@ -418,7 +468,7 @@ h1 {
 
 .compaigns {
     margin-top: 200px;
-    margin-left: -60px;
+
 }
 
 
@@ -453,6 +503,8 @@ h1 {
 .year {
     background-repeat: no-repeat;
     padding: 41px 27px 20px;
+    width: 342px;
+    height: 239px;
 
 }
 
@@ -463,9 +515,6 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 239px;
-    width: 342px;
-
 
 
 
@@ -480,8 +529,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 239px;
-    width: 342px;
+
 
 
 
@@ -499,8 +547,7 @@ h1 {
     flex-direction: column;
     justify-content: flex-end;
 
-    height: 239px;
-    width: 342px;
+
 
 
 
@@ -614,6 +661,7 @@ input::placeholder {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .best-brands h2 {
@@ -638,6 +686,7 @@ input::placeholder {
     gap: 65px;
     margin-top: 39px;
     margin-bottom: 146px;
+
 }
 
 .choose-plan .container {
@@ -645,6 +694,8 @@ input::placeholder {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    gap: 40px;
+
 
 }
 
@@ -679,7 +730,7 @@ input::placeholder {
     padding: 19px 30px 21px 33px;
     border: none;
     margin-bottom: 95px;
-    margin-top: 19px;
+
 
 
 
@@ -734,6 +785,10 @@ footer .logo {
     margin-top: -180px;
 }
 
+footer .d-f {
+    gap: 164.91px;
+}
+
 
 
 
@@ -746,7 +801,7 @@ footer .logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 10px 100px 48px;
+    margin: 10px 257px 48px;
     font-family: Raleway;
     font-size: 15px;
     font-weight: 800;
@@ -754,96 +809,106 @@ footer .logo {
     text-align: left;
     border-top: 2px solid lightgray;
     padding-top: 39px;
-    
+
 
 }
+
 .Quest {
-    margin-left: 20px;
+    margin-right: 98px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+
+
+
     .container {
-        max-width: 100%;
+        max-width: 700px;
     }
+
     .logo span {
         width: 102px;
         font-family: Raleway;
         font-size: 22px;
         font-weight: 900;
         line-height: 26px;
-        text-align: left;
-        
-        
-        
-        
+
+
+
+
+
     }
+
     .logo img {
         max-width: 84px;
         margin-right: -10px;
-        margin-left: 80px;
     }
-    
-   nav ul li {
-    font-family: Raleway;
-    font-size: 11px;
-    font-weight: 800;
-    line-height: 13px;
-    border-bottom: 4px solid  rgba(75, 168, 125, 1);
-    text-align: left;
-    padding-bottom: 5px;
-    
-   }
-   
-   
-   .feauture::after {
-    display: none;
-   }
-   .sign {
-    padding: 6px 13.5px;
-    font-family: Raleway;
-    font-size: 11px;
-    font-weight: 800;
-    line-height: 13px;
-    text-align: center;
-    margin-top: -6px;
-    margin-right: -150px;
-    
-    
-   }
-   nav {
-     margin-left: -80px;
-   }
-   .stunning-email .container {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       flex-direction: column;
-     
-   }
-   .stunning-email {
-    max-height: 314.894775390625px;
-    min-width: 600px;
-     margin-left: 310px;
-      
-   }
-   .content {
-      margin-top: -30px;
-      margin-left: -460px;
-      
-      
 
-   }
-   
-   
-   h1 {
-    font-family: Playfair Display;
-    font-size: 38px;
-    font-weight: 900;
-    line-height: 46px;
-    text-align: left;
-    max-width: 315px;
-    
-   }
+
+    nav ul li {
+
+        font-family: Raleway;
+        font-size: 11px;
+        font-weight: 800;
+        line-height: 13px;
+        border-bottom: 4px solid rgba(75, 168, 125, 1);
+
+        padding-bottom: 5px;
+
+    }
+
+    .d-f {
+        gap: 90px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .nav-link {
+        gap: 20px;
+    }
+
+
+    .feauture::after {
+        display: none;
+    }
+
+    .sign {
+        padding: 6px 13.5px;
+
+        font-family: Raleway;
+        font-size: 11px;
+        font-weight: 800;
+        line-height: 13px;
+        text-align: center;
+        margin-top: -6px;
+
+
+
+
+    }
+
+    .stunning-email .container {
+
+        background-size: 472.06px;
+
+    }
+
+
+
+
+    h1 {
+        font-family: Playfair Display;
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 46px;
+        text-align: left;
+        max-width: 315px;
+
+
+
+    }
+
     .stunning-email p {
         font-family: Raleway;
         font-size: 12px;
@@ -851,9 +916,9 @@ footer .logo {
         line-height: 16px;
         text-align: left;
         max-width: 300px;
-        
+
     }
-    
+
     .try-now {
         padding: 13px 35px 14px 31px;
         font-family: Raleway;
@@ -861,8 +926,9 @@ footer .logo {
         font-weight: 900;
         line-height: 15px;
         text-align: center;
-        
+
     }
+
     .get-demo {
         padding: 13px 21px 14px;
         font-family: Raleway;
@@ -871,339 +937,894 @@ footer .logo {
         line-height: 15px;
         letter-spacing: 1.2999999523162842px;
         text-align: center;
-        
+
     }
-   .customers {
-      width: 800px;
-      
-      margin-right: 76px;
-      margin-left: 76px;
-      margin-top: 109.62px;
-      margin-bottom: -235px;
-   }
-   .customers h2 {
-    font-family: Playfair Display;
-    font-size: 38px;
-    font-weight: 900;
-    line-height: 51px;
-    margin-top: 175px;
-    margin-left: -20px;
-    
-    
-   }
-   .learn-how {
-      padding: 12.44px 24px 14.56px;
-      font-family: Raleway;
-font-size: 13px;
-font-weight: 900;
-line-height: 15px;
-text-align: center;
-margin-top: 54px;
 
-   } 
-   .Services {
-       width: 940.66px;
-       
-   }
-   .Services .container {
-       display: flex;
-    
-       
-   }
-   .cards {
-      gap: 30px;
-   }
-   .card-img {
-        width: 276.52px;
-   }
-   .Services p {
-    font-family: Raleway;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
-    text-align: left;
-    
-   }
-   .cards p {
-      max-width: 170px;
-   }
-   .cards a {
-    font-family: Raleway;
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 14px;
-    text-align: left;
-    
-   }
-   .card-one {
-      padding:  17px 25px 32px 20px;
-      
-   }
-   .card-two {
-       padding: 16px 19px 39px 20px;
-   }
-   
-   
-   .compaigns {
-      margin-left: -5px;
-      margin-top: 190px;
-   }
-   .compaigns h2 {
-    font-family: Playfair Display;
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 31px;
-    text-align: left;
-    max-width: 232px;
-    
-   }
-   .compaigns p {
-      max-width: 203px;
-      line-height: 16px;
-   }
-   
-   .members .container .member-cards {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 19.5px;
-      margin-left: 31px;
-      margin-right: -157px;
-   }
-   .year {
-      min-width: 223px;
-      min-height: 157px;
-   }
-       
-    
-   
-   .member-cards h2 {
-    font-family: Raleway;
-font-size: 22px;
-font-weight: 900;
-line-height: 26px;
-text-align: left;
+    .background {
+        margin-top: -100px;
+        height: 650px;
+    }
 
-   }
-.member-cards span {
-    font-family: Raleway;
-font-size: 12px;
-font-weight: 700;
-line-height: 14px;
+    .background img {
+        transform: translate(-70px, -130px);
 
-text-align: left;
+    }
 
-}
-.join-section .container {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-}
-.join-section h2 {
-    font-family: Playfair Display;
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 36px;
-    max-width: 500px;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -10px;
-    
-    
-}
- form input {
-    padding: 12px 150px 15px 16px;
-    font-family: Raleway;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 15px;
-    text-align: left;
-    
- }
- .join {
-     padding: 13px  21.5px  14px;
-     font-family: Raleway;
-     font-size: 13px;
-     font-weight: 900;
-     line-height: 15px;
-     text-align: center;
-     
- }
- .subscribe {
-      display: flex;
-      gap: 17px;
-      margin-top: -30px;
-      margin-left: 200px;
- }
- .join-section p {
-    font-family: Raleway;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 15px;
-    margin-right: 80px;
-    
-    
-    
- }
- .best-brands h2 {
-    font-family: Playfair Display;
-    font-size: 28px;
-    font-weight: 900;
-    line-height: 36px;
-    text-align: center;
-    max-width: 300px;
-    margin-left: 130px;
-    
- }
- .brands {
-    margin-left: 82px;
-    display: flex;
-    justify-content: space-between;
-    gap: 80px;
-    
-    
- }
- .brand-one {
-     
-     width: 104px;
-     
-     
- }
- .brand-two {
-     width: 55px;
-     
- }
- .brand-three {
-     width: 94px;
-     
- }
- .brand-four {
-     width: 92px;
-     
- }
- .brand-five {
-     width: 91px;
-     
- }
- .choose-plan {
-     
-     width: 950px;
- }
- .choose-plan h2 {
-    font-family: Playfair Display;
-    font-size: 42px;
-    font-weight: 900;
-    line-height: 56px;
-    text-align: center;
-    margin-left: -75px;
-    
+    .customers .container .main-top {
+        background-size: 616px;
+        height: 400px;
+        margin-top: -300px;
+        background-position: center bottom;
+        gap: 41px;
+        justify-content: center;
 
-    
- }
- .pick {
-    padding: 13px 23px 14px;
-    font-family: Raleway;
-    font-size: 13px;
-    font-weight: 900;
-    line-height: 15px;
-    text-align: center;
-    margin-left: -50px;
-    margin-top: 60px;
-    
-    
-    
- }
- footer .logo {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 900;
-    line-height: 19px;
-    text-align: left;
-    margin-top: -165px;
-    margin-left: -10px;
-    
- }
- .navigation ul li a {
-    font-family: Raleway;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 14px;
-    text-align: left;
-    
- }
- .navigation {
-     margin-right: -40px;
- }
- 
- .footer-info {
-    font-family: Raleway;
-    font-size: 9px;
-    font-weight: 700;
-    line-height: 11px;
-    text-align: left;
-    
- }
- .informations {
-     margin: 25px 86px 30px;
-     margin-top: -30px;
-     
-     margin-right: -30px;
-     
-     
-     
- }
- .Quest {
-    margin-right: 80px;
- }
- 
- 
-}
-@media screen and (max-width: 320px) {
-     nav {
-        display: none;
-     }
-     header {
-        padding: 14.75px 13px 29.5px;
-     }
-     .stunning-email .container {
-          
-          
-     }
-     .Services .container {
-         display: flex;
-         flex-direction: column;
-     }
-     .cards {
+
+
+
+    }
+
+    .customers h2 {
+        font-family: Playfair Display;
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 51px;
+        margin-top: 50px;
+
+    }
+
+    .learn-how {
+        padding: 12.44px 24px 14.56px;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 900;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .mobil-cards {
+        visibility: hidden;
+        margin-top: -646px;
+    }
+
+
+    .Services .container {
+        display: flex;
+        justify-content: center;
+        margin-top: -90px;
+
+        gap: 30px;
+
+
+
+    }
+
+    .Services {
+        width: 768px;
+        height: 692.19px;
+    }
+
+    .Services .cards {
+        display: flex;
+        gap: 30px;
+
+
+    }
+
+    .Services img {
+        width: 200px;
+
+    }
+
+    .Services p {
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: left;
+
+    }
+
+    .cards p {
+        max-width: 170px;
+    }
+
+    .cards a {
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 14px;
+        text-align: left;
+
+    }
+
+    .card-one {
+
+        margin-top: 170px;
+    }
+
+    .card-two {
+        margin-top: 210px;
+    }
+
+    .Services .card-one .card-content {
+        padding: 17px 25px 32px 20px;
+        width: 200px;
+
+
+    }
+
+    .card-two .card-content {
+        padding: 16px 19px 39px 20px;
+        width: 200px;
+    }
+
+
+    .compaigns {
+
+        margin-top: 190px;
+    }
+
+    .compaigns h2 {
+        font-family: Playfair Display;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 31px;
+        text-align: left;
+        width: 232px;
+
+    }
+
+    .compaigns p {
+        width: 203px;
+
+
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    .members .container .member-cards {
+        display: flex;
+
+        gap: 10px;
+
+
+
+
+    }
+
+    .members {
+
+        margin-top: -60px;
+
+
+    }
+
+    .year {
+        background-size: 223px;
+        height: 157px;
+
+    }
+
+
+
+
+    .member-cards h2 {
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 26px;
+        text-align: left;
+
+    }
+
+    .member-cards span {
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+
+        text-align: left;
+
+    }
+
+    .join-section .container {
         display: flex;
         flex-direction: column;
-     }
-     .members .container {
-        display: flex;
-        
-       flex-direction: column;
-     }
-     .join-section .container {
-         display: flex;
-         flex-direction: column;
-     }
-     .join-section h2 {
-         
-     }
-     .choose-plan h2 {
-        max-width: 259px;
-     }
-     .brands {
-       display: grid;  
-       grid-template-columns: repeat(2, auto);
-       grid-template-rows: repeat(3, auto);
-       gap: 200px;
-       margin-left: 500px;
-     }
-     .brand-five {
-        margin-right: -900px;
-        margin-top: -200px;
-     }
-     .best-brands h2 {
-         max-width: 281px;
-     }
+        align-items: center;
     }
+
+    .join-section h2 {
+        font-family: Playfair Display;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 36px;
+        max-width: 500px;
+        text-align: center;
+
+        margin-top: -10px;
+
+
+    }
+
+    form input {
+        padding: 12px 150px 15px 16px;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        text-align: left;
+
+    }
+
+    .join {
+        padding: 13px 21.5px 14px;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 900;
+        line-height: 15px;
+        text-align: center;
+
+    }
+
+    .subscribe {
+        display: flex;
+        gap: 17px;
+        margin-top: -30px;
+
+    }
+
+    .join-section p {
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        margin-right: 429px;
+        margin-right: 182px;
+
+
+
+    }
+
+    .best-brands h2 {
+        font-family: Playfair Display;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 36px;
+        text-align: center;
+        max-width: 300px;
+
+
+    }
+
+    .brands {
+        gap: 43px;
+
+    }
+
+    .brands img {
+        width: 90px;
+    }
+
+
+
+
+    .choose-plan .choose-plan h2 {
+        font-family: Playfair Display;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 56px;
+        text-align: center;
+
+
+
+
+    }
+
+    .pick {
+        padding: 13px 23px 14px;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 900;
+        line-height: 15px;
+        text-align: center;
+
+
+
+
+
+    }
+
+    footer .container {
+        gap: 130px;
+    }
+
+    footer .logo {
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 19px;
+        text-align: left;
+        margin-top: -165px;
+
+
+    }
+
+    .navigation ul li a {
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        text-align: left;
+
+    }
+
+    .navigation {
+        gap: 43px;
+    }
+
+
+
+    .footer-info {
+        font-family: Raleway;
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 11px;
+        text-align: left;
+
+    }
+
+    .informations {
+        margin: 25px 30px 30px;
+
+
+
+
+
+
+    }
+
+    .Quest {
+        margin-right: 90px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+
+
+    body {
+        position: relative;
+    }
+
+
+
+    nav {
+        display: none;
+    }
+
+    .d-f {
+        justify-content: space-around;
+        gap: 10px;
+
+
+    }
+
+
+
+    .logo img {
+        margin-right: -20px;
+    }
+
+
+
+    h1 {
+        font-size: 36px;
+        max-width: 284px;
+        transform: translate(5px, -50px);
+
+
+
+    }
+
+    .stunning-email .container {
+        background-size: 318.5px;
+        max-width: 305px;
+    }
+
+    .stunning-email p {
+        max-width: 260px;
+        transform: translate(5px, 30px);
+    }
+
+    .stunning-email a {
+        display: inline-block;
+
+    }
+
+    .try-now {
+        transform: translate(5px, -20px);
+
+    }
+
+    .get-demo {
+        transform: translate(160px, -102px);
+
+
+    }
+
+
+
+
+
+
+
+
+
+    .customers .container {
+        height: 600px;
+    }
+
+    .customers .container .main-top {
+        justify-content: center;
+        gap: 20.56px;
+        background-size: 310px;
+        width: 304px;
+        height: 202.26px;
+
+        margin-left: auto;
+        margin-right: auto;
+        transform: translate(0, 330px);
+
+
+
+
+
+
+
+
+    }
+
+
+
+    .customers .main-top h2 {
+        font-family: Playfair Display;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 29px;
+        margin-top: 0;
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    .main-top a {
+
+
+        padding: 6.44px 13px 7.56px;
+        font-family: Raleway;
+        font-size: 6px;
+        font-weight: 900;
+        line-height: 7px;
+        letter-spacing: 0.30000001192092896px;
+        text-align: center;
+        margin-top: 0;
+
+
+
+    }
+
+
+    .background {
+        height: 200px;
+        width: 349px;
+        transform: translate(-30px, -70px);
+    }
+
+    .background img {
+        transform: translate(10px, -70px);
+        width: 349px;
+        height: 370px;
+    }
+
+    .mobil-cards .container {
+
+        margin-top: 200px;
+        visibility: visible;
+
+    }
+
+    .mobil-cards .card-one {
+        position: relative;
+        z-index: 3;
+        transform: translate(15px, 18px);
+
+
+
+    }
+
+    .mobil-cards img {
+        max-width: 290px;
+        height: 185px;
+
+
+
+    }
+
+    .mobil-cards .card-content {
+        height: 128px;
+        width: 210px;
+        padding: 5px 15px;
+        margin-top: -30px;
+    }
+
+    .card-content p {
+        max-width: 190px;
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+
+        text-align: left;
+
+
+    }
+
+    .learn-more {
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 14px;
+        transform: ;
+        text-align: left;
+
+    }
+
+
+
+
+
+
+    .Services .container {
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+
+
+
+
+    }
+
+    .Services {
+
+        width: 320px;
+        height: 790px;
+
+
+
+    }
+
+
+
+
+    .cards {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .Services .card-one {
+        display: none;
+    }
+
+    .card-two img {
+        width: 220px;
+    }
+
+    .card-two .card-content {
+        width: 220px;
+        padding: 16px 19px;
+    }
+
+
+    .card-two p {
+        margin-bottom: -5px;
+        max-width: 170px;
+    }
+
+    .card-two {
+
+        transform: translate(70px, -60px);
+    }
+
+
+    .compaigns {
+        transform: translate(30px, -260px);
+    }
+
+
+    .compaigns h2 {
+        margin-bottom: 15px;
+    }
+
+    .compaigns p {
+        max-width: 300px;
+    }
+
+    .members {
+        position: relative;
+        z-index: 10;
+    }
+
+    .members .container .member-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 21px;
+
+
+
+
+
+    }
+
+    .year {
+        background-position: center center;
+
+    }
+
+    .year {
+        display: flex;
+        align-items: center;
+        padding: 100px 80px 15px 10px;
+    }
+
+    .year h2 {
+        margin-right: 40px;
+    }
+
+    .member-one {
+        margin-top: 10px;
+    }
+
+
+
+    .join-section h2 {
+        font-size: 26px;
+        max-width: 239px;
+        margin-top: 15px;
+    }
+
+    form input {
+        padding: 13px 100px 14px 14px;
+        margin: 90px 48px 6px;
+    }
+
+    .join {
+        margin-top: -10px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+
+    }
+
+
+    .join-section p {
+        display: none;
+    }
+
+
+
+    form::after {
+        content: "Thanks ! Email received";
+        color: rgba(75, 168, 125, 1);
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0.6000000238418579px;
+        text-align: center;
+        margin: 6px 99px 7px;
+
+
+
+
+    }
+
+
+
+
+    .best-brands .container {
+        height: 242px;
+    }
+
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        margin-top: -10px;
+        row-gap: 29px;
+
+    }
+
+    .best-brands h2 {
+        max-width: 281px;
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .brand-two img {
+        width: 55px;
+
+    }
+
+
+
+    .brand-one {
+        order: 2;
+    }
+
+    .brand-five {
+        order: 1;
+    }
+
+    .brand-three {
+        order: 5;
+
+
+    }
+
+    .brand-four {
+        order: 3;
+
+    }
+
+    .brand-three {
+
+        grid-column: span 2;
+        justify-self: center;
+    }
+
+    .brand-two {
+        grid-column: span 1;
+        justify-self: center;
+    }
+
+
+    .choose-plan {
+        max-width: 320px;
+        height: 290px;
+    }
+
+    .choose-plan .container {
+        display: flex;
+        gap: 50px;
+
+
+
+
+    }
+
+    .choose-plan h2 {
+        font-family: Playfair Display;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: center;
+        margin-top: -43px;
+
+    }
+
+
+    footer .container {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        justify-content: center;
+
+        row-gap: 30px;
+
+
+
+    }
+
+
+
+
+
+
+
+    .order-four {
+        order: 1;
+        transform: translate(0, -30px);
+
+    }
+
+    .order-two {
+        order: 2;
+    }
+
+
+
+    footer .logo {
+        transform: translate(-60px, 160px);
+
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 19px;
+
+        text-align: left;
+
+
+    }
+
+    .logo img {
+        width: 60px;
+        margin-right: -10px;
+    }
+
+    .navigation {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+
+        column-gap: 96px;
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        text-align: left;
+        color: rgba(0, 0, 0, 1);
+        row-gap: 0;
+        margin-left: -40px;
+
+    }
+
+
+
+
+
+    .informations {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 14px;
+        flex-direction: column;
+        transform: translate(-10px, 0px);
+        margin-top: -80px;
+
+    }
+
+    .Quest {
+        transform: translate(0, -20px);
+    }
+
+}
