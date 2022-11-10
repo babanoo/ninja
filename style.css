@@ -864,6 +864,10 @@ footer .d-f {
 
     }
 
+    nav li:first-of-type::after {
+        display: none;
+    }
+
     .d-f {
         gap: 90px;
     }
@@ -877,9 +881,7 @@ footer .d-f {
     }
 
 
-    .feauture::after {
-        display: none;
-    }
+
 
     .sign {
         padding: 6px 13.5px;
