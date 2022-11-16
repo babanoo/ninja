@@ -1270,8 +1270,10 @@ footer .logo {
 
     }
 
-    footer .container {
-        gap: 130px;
+    .flx-start {
+        column-gap: 130px;
+        padding-top: 51px;
+
     }
 
     footer .logo {
@@ -1280,7 +1282,7 @@ footer .logo {
         font-weight: 900;
         line-height: 19px;
         text-align: left;
-        margin-top: -165px;
+
 
 
     }
@@ -1290,7 +1292,7 @@ footer .logo {
         font-size: 12px;
         font-weight: 700;
         line-height: 14px;
-        text-align: left;
+
 
     }
 
@@ -1300,28 +1302,23 @@ footer .logo {
 
 
 
-    .footer-info {
+
+
+    .informations {
+        padding: 25px 0 30px;
+
         font-family: Raleway;
         font-size: 9px;
         font-weight: 700;
         line-height: 11px;
         text-align: left;
 
-    }
-
-    .informations {
-        margin: 25px 30px 30px;
-
-
-
 
 
 
     }
 
-    .Quest {
-        margin-right: 90px;
-    }
+
 
 
 }
@@ -1771,16 +1768,7 @@ footer .logo {
     }
 
 
-    footer .container {
-        display: grid;
-        grid-template-rows: repeat(2, auto);
-        justify-content: center;
 
-        row-gap: 30px;
-
-
-
-    }
 
 
 
@@ -1798,16 +1786,30 @@ footer .logo {
         order: 2;
     }
 
+    footer {
+        padding: 15px 91px 10px 17px;
 
+    }
+
+    .flex-start {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 10px;
+
+
+
+    }
 
     footer .logo {
-        transform: translate(-60px, 160px);
+
 
         font-family: Raleway;
         font-size: 16px;
         font-weight: 900;
         line-height: 19px;
-
+        margin-left: -100px;
+        margin-bottom: 11px;
         text-align: left;
 
 
@@ -1816,21 +1818,22 @@ footer .logo {
     .logo img {
         width: 60px;
         margin-right: -10px;
+
     }
 
     .navigation {
         display: grid;
-        grid-template-columns: repeat(2, auto);
-
-        column-gap: 96px;
+        grid-template-columns: repeat(2, 105px);
+        column-gap: 10px;
+        row-gap: 0px;
         font-family: Raleway;
         font-size: 12px;
         font-weight: 700;
         line-height: 14px;
         text-align: left;
         color: rgba(0, 0, 0, 1);
-        row-gap: 0;
-        margin-left: -40px;
+
+
 
     }
 
@@ -1840,17 +1843,14 @@ footer .logo {
 
     .informations {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 14px;
         flex-direction: column;
-        transform: translate(-10px, 0px);
-        margin-top: -80px;
+        row-gap: 10px;
+        margin-top: -50px;
+
+
 
     }
 
-    .Quest {
-        transform: translate(0, -20px);
-    }
+
 
 }
