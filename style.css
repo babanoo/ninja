@@ -655,7 +655,7 @@ input::placeholder {
 
 }
 
-.best-brands .container {
+.flx {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -743,7 +743,7 @@ input::placeholder {
 .navigation {
     display: flex;
     gap: 65px;
-    margin-top: 79px;
+
     margin-bottom: 74px;
 
 
@@ -757,6 +757,8 @@ input::placeholder {
     color: rgba(0, 0, 0, 1);
 
 }
+
+
 
 footer ul li {
     list-style: none;
@@ -782,12 +784,9 @@ footer .logo {
     font-weight: 900;
     line-height: 31px;
     text-align: left;
-    margin-top: -180px;
+
 }
 
-footer .d-f {
-    gap: 164.91px;
-}
 
 
 
@@ -799,23 +798,22 @@ footer .d-f {
 .informations {
     flex-direction: row;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px 257px 48px;
+
+    gap: 90px;
     font-family: Raleway;
     font-size: 15px;
     font-weight: 800;
     line-height: 18px;
-    text-align: left;
+    margin-bottom: 79px;
     border-top: 2px solid lightgray;
     padding-top: 39px;
 
 
+
+
 }
 
-.Quest {
-    margin-right: 98px;
-}
+
 
 @media (max-width: 768px) {
 
