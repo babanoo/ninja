@@ -689,7 +689,7 @@ input::placeholder {
 
 }
 
-.choose-plan .container {
+.flx-btwn {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -776,6 +776,15 @@ footer ul li {
 
 }
 
+.flx-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 79px;
+    flex-wrap: wrap;
+    column-gap: 194px;
+}
+
 footer .logo {
     display: flex;
     align-items: center;
@@ -798,15 +807,16 @@ footer .logo {
 .informations {
     flex-direction: row;
     display: flex;
-
+    justify-content: center;
     gap: 90px;
     font-family: Raleway;
     font-size: 15px;
     font-weight: 800;
     line-height: 18px;
-    margin-bottom: 79px;
+
     border-top: 2px solid lightgray;
-    padding-top: 39px;
+
+    padding: 39px 0 48px;
 
 
 
