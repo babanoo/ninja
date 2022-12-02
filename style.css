@@ -172,13 +172,32 @@ nav li:first-of-type::after {
     background-image: url(./images/computer.png);
     background-repeat: no-repeat;
     background-position: right top;
-    height: 481.19px;
+    height: 500px;
 
 
 
 
 
 
+
+
+}
+
+.stunning-email {
+    position: relative;
+    padding-top: 70px;
+}
+
+.stunning-email::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 90px;
+    background-image: url(./images/Rectangle\ 2\ \(2\).png);
+    background-position: bottom left;
+    left: 15%;
+    bottom: 10%;
+    background-repeat: no-repeat;
 }
 
 
