@@ -24,8 +24,25 @@ body {
 
 }
 
+
 header {
     padding-top: 18px;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-size: 59px;
+    font-weight: 900;
+    line-height: 71px;
+    max-width: 489px;
+    text-align: left;
+    margin-bottom: 23px;
+    margin-top: 58.09px;
+
+
+
+
+
 }
 
 nav ul {
@@ -166,21 +183,7 @@ nav li:first-of-type::after {
 
 
 
-h1 {
-    font-family: Playfair Display;
-    font-size: 59px;
-    font-weight: 900;
-    line-height: 71px;
-    max-width: 489px;
-    text-align: left;
-    margin-bottom: 23px;
-    margin-top: 58.09px;
 
-
-
-
-
-}
 
 .stunning-email p {
     font-family: Raleway;
@@ -236,29 +239,49 @@ h1 {
 }
 
 
-.gray-back {
-    position: relative;
-    z-index: -1;
+
+
+
+.customers {
     background: rgba(247, 247, 247, 1);
+    height: 700px;
+    position: relative;
 
 }
 
-
-.gray-back img {
-
-    max-width: 1200px;
-    height: 900px;
-    transform: translate(30px, -160px);
-
+.customers::before {
+    content: "";
+    background-image: url(./images/slash_black\ \(image\)\ \(4\)\ -\ Copy.png);
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: 999;
 }
 
-.customers .container .main-top {
+.main-top {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 61px;
     flex-direction: column;
-    margin-top: -800px;
+
+    background-image: url(./images/video.png);
+    background-position: center bottom;
+    transform: translateY(35px);
+    margin: 0 auto;
+
+    width: 944px;
+    height: 628px;
+
+
+    background-repeat: no-repeat;
+    position: relative;
+
+    z-index: 5;
+
 
 }
 
@@ -271,7 +294,7 @@ h1 {
     color: rgba(255, 255, 255, 1);
     text-align: center;
     text-transform: capitalize;
-    margin-top: -60px;
+
 
 
 
@@ -302,7 +325,6 @@ h1 {
 
 
 
-.main-top {
 
 
 
@@ -311,20 +333,10 @@ h1 {
 
 
 
-    background-image: url(./images/video.png);
-    margin: 0 auto;
-
-    height: 628.0846557617188px;
-    width: 944px;
 
 
-    background-repeat: no-repeat;
-
-    position: relative;
-    z-index: 2;
 
 
-}
 
 
 .mobil-cards {
@@ -335,10 +347,11 @@ h1 {
 .Services .container {
     display: flex;
     align-items: center;
-    margin-top: -220px;
+
     background-image: url(./images/slash_white\ \(image\)\ \(3\).png);
     background-position: top right;
     gap: 47px;
+
 
 
 }
@@ -355,10 +368,12 @@ h1 {
 .Services {
     background: rgba(202, 234, 199, 1);
     height: 1059.87px;
-
+    z-index: 4;
     clip-path: polygon(0 14%, 100% 0, 99% 75%, 0% 100%);
     position: relative;
-    z-index: 1;
+    margin-top: -160px;
+
+
 
 
 
@@ -509,7 +524,7 @@ h1 {
 .member-one {
     background-image: url(./images/Frankie_photo.png);
     position: relative;
-    z-index: 2;
+    z-index: 7;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -1311,12 +1326,13 @@ footer .logo {
         font-size: 9px;
         font-weight: 700;
         line-height: 11px;
-        text-align: left;
+
 
 
 
 
     }
+
 
 
 
